@@ -389,3 +389,17 @@ contract('SupplyChain', function (accounts) {
     })
 
 });
+
+/*
+
+References:
+https://github.com/Decentral3/SupplyChainDapp
+https://github.com/trufflesuite/ganache
+https://trufflesuite.com/boxes/helloworldbox/
+https://www.npmjs.com/package/ganache-cli
+https://www.youtube.com/watch?v=35SDvokII7A
+https://github.com/axelgalicia/blockchain-supply-chain
+https://www.cdnpkg.com/web3/file/web3.min.js/
+https://github.com/Faizack/Supply-Chain-Blockchain
+
+*/
