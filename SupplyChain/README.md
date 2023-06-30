@@ -28,7 +28,6 @@ You will need to install the correct version of truffle.
 npm i -g truffle@4.1.14
 ```
 
-## Library
 Next you will need to install the ganache-cli in order to test on your local network.
 ```sh
 Npm i ganache-cli
@@ -37,6 +36,22 @@ Make sure you have your metamask extenstion added to your browser which can be f
 ```sh
  metamask.io
  ```
+
+ ## Libraries
+
+ Truffle is a development environment, asset pipeline, and testing framework which is all comprised of the Truffle Suite ecosystem. Truffle uses the EVM (Ethereum Virtual Machine) for the purpose of developing and testing dApps (decentralized applications) using smart contracts. Its framework allows for a more streamline and accessible approach. Its features are listed below:
+-	Smart contract management
+-	Automated Contract Testing
+-	Scriptable Migrations Deployment
+-	Network Management
+-	Interactive Console
+
+Ganache is included in the Truffle Suite which is a tool that allows you to set up your own local blockchain environment for deploying and testing your smart contracts. Since it costs ETH in the form of gas fees paid to the network for deploying your contract, using ganache allows you to use your local testing environment to develop and test your dApp without paying unnecessary fees.
+
+Web3 Library
+
+Web3 allows you to interact with an Ethereum node either locally or remotely. Web3 is comprised js libraries which allow this interaction by providing us with an API in order to work with the blockchain. It acts as a wrapper for the JSON RPC in order to establish the connection through local or remotes Ethereum nodes with either a HTTP or IPC connection.
+
 
 ## Launch Ganache:
 
@@ -111,6 +126,14 @@ Then you should see the completion of the deployment
 
 You will then navigate to your contract on the Sepolia Test Network and confirm your successful deployment.
 
+Navigate to:
+```sh
+https://sepolia.etherscan.io
+```
+Search for your contract:
+```sh
+0x0f4ea3a30e9742eef977ed37817d22c55448bc1e
+```
 ![alt text](https://github.com/PDot5/Blockchain-SupplyChain/blob/main/SupplyChain/img/SepoliaContract.png)
 
 ## Built with
